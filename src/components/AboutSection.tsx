@@ -5,7 +5,16 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const teamBasePath = `${import.meta.env.BASE_URL}team/`;
 
-const teamMembers = [
+type TeamMember = {
+  name: string;
+  role: string;
+  skills: string;
+  description: string;
+  image: string;
+  isActive?: boolean;
+};
+
+const teamMembers: TeamMember[] = [
   {
     name: "Lucas",
     role: "Desenvolvedor Senior Full Stack",
@@ -40,6 +49,7 @@ const teamMembers = [
     skills: "Gestão de Pessoas | Logística | Organização Empresarial",
     description: "Experiência prática na gestão de spas, trazendo visão estratégica e operacional para garantir que as soluções desenvolvidas realmente atendam às necessidades do setor.",
     image: `${teamBasePath}jahdy.jpg`,
+    isActive: false,
   },
 ];
 
@@ -216,7 +226,7 @@ const AboutSection = () => {
               className="w-full"
             >
               <CarouselContent className="-ml-2 md:-ml-4">
-                {teamMembers.map((member, index) => (
+                {teamMembers.filter((member) => member.isActive !== false).map((member, index) => (
                   <CarouselItem key={member.name} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
                     <motion.div
                       initial={{ opacity: 0, scale: 0.9 }}
