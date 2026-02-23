@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/aura-systems-brand/", // <- ESSENCIAL no GitHub Pages (project page)
+  base: "./", // compatível com domínio custom e subpath
 
   server: {
     host: "::",
