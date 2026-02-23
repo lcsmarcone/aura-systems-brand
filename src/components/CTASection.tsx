@@ -22,7 +22,7 @@ const CTASection = () => {
               Vamos construir um sistema que funciona de forma tão inteligente quanto seu negócio.
             </p>
             <a
-              href="mailto:contato@aurasystems.com.br"
+              href="mailto:contato@aurasystemconsultoria.com.br"
               className="inline-flex px-8 py-3.5 rounded-lg bg-accent text-accent-foreground font-medium text-sm hover:opacity-90 transition-opacity glow-accent"
             >
               Entre em Contato
