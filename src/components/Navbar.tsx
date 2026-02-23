@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import AuraLogo from "./AuraLogo";
 
-const navItems = ["Solutions", "Process", "About", "Contact"];
+const navItems = ["Soluções", "Processo", "Sobre", "Contato"];
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
           {navItems.map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={item === "Soluções" ? "#solutions" : item === "Processo" ? "#process" : item === "Sobre" ? "#about" : "#contact"}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               {item}
@@ -28,7 +28,7 @@ const Navbar = () => {
           href="#contact"
           className="hidden md:inline-flex items-center px-5 py-2.5 rounded-lg bg-accent text-accent-foreground text-sm font-medium hover:opacity-90 transition-opacity"
         >
-          Get Started
+          Começar
         </a>
       </div>
     </motion.nav>

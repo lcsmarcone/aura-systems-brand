@@ -16,16 +16,16 @@ const CTASection = () => {
 
           <div className="relative z-10">
             <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4">
-              Ready to elevate your brand?
+              Pronto para elevar sua marca?
             </h2>
             <p className="text-muted-foreground text-lg max-w-md mx-auto mb-8">
-              Let's build a system that works as intelligently as your business does.
+              Vamos construir um sistema que funciona de forma tão inteligente quanto seu negócio.
             </p>
             <a
-              href="mailto:hello@aurasystems.dev"
+              href="mailto:contato@aurasystems.com.br"
               className="inline-flex px-8 py-3.5 rounded-lg bg-accent text-accent-foreground font-medium text-sm hover:opacity-90 transition-opacity glow-accent"
             >
-              Get in Touch
+              Entre em Contato
             </a>
           </div>
         </motion.div>

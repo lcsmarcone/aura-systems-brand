@@ -4,23 +4,23 @@ import { Globe, Smartphone, CalendarCheck, Zap } from "lucide-react";
 const services = [
   {
     icon: Globe,
-    title: "Websites",
-    description: "High-converting landing pages and full sites designed for wellness brands.",
+    title: "Sites",
+    description: "Landing pages de alta conversão e sites completos projetados para marcas de bem-estar.",
   },
   {
     icon: Smartphone,
-    title: "Web Apps",
-    description: "Custom dashboards and client portals that streamline operations.",
+    title: "Aplicativos Web",
+    description: "Dashboards personalizados e portais de clientes que otimizam operações.",
   },
   {
     icon: CalendarCheck,
-    title: "Booking Systems",
-    description: "AI-enhanced scheduling that reduces no-shows and maximizes bookings.",
+    title: "Sistemas de Agendamento",
+    description: "Agendamento aprimorado com IA que reduz faltas e maximiza reservas.",
   },
   {
     icon: Zap,
-    title: "Automation",
-    description: "Smart workflows for follow-ups, reminders, and client engagement.",
+    title: "Automação",
+    description: "Fluxos de trabalho inteligentes para follow-ups, lembretes e engajamento de clientes.",
   },
 ];
 
@@ -44,9 +44,9 @@ const ServicesSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="text-xs text-primary font-medium tracking-wider uppercase">What We Build</span>
+          <span className="text-xs text-primary font-medium tracking-wider uppercase">O Que Desenvolvemos</span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold mt-3">
-            Solutions that perform
+            Soluções que performam
           </h2>
         </motion.div>
 

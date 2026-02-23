@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { number: "01", title: "Discovery", description: "We learn your business, audience and goals." },
-  { number: "02", title: "Design", description: "Clean interfaces crafted for conversion and trust." },
-  { number: "03", title: "Build", description: "Fast, modern tech stack with AI integrations." },
-  { number: "04", title: "Launch", description: "Go live with analytics, support and optimization." },
+  { number: "01", title: "Descoberta", description: "Aprendemos sobre seu negócio, audiência e objetivos." },
+  { number: "02", title: "Design", description: "Interfaces limpas criadas para conversão e confiança." },
+  { number: "03", title: "Desenvolvimento", description: "Stack tecnológico rápido e moderno com integrações de IA." },
+  { number: "04", title: "Lançamento", description: "Coloque no ar com analytics, suporte e otimização." },
 ];
 
 const ProcessSection = () => {
@@ -18,9 +18,9 @@ const ProcessSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="text-xs text-primary font-medium tracking-wider uppercase">How We Work</span>
+          <span className="text-xs text-primary font-medium tracking-wider uppercase">Como Trabalhamos</span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold mt-3">
-            From concept to launch
+            Do conceito ao lançamento
           </h2>
         </motion.div>
 

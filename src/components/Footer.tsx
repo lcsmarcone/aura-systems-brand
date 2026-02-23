@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <AuraLogo size={32} />
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Aura Systems. All rights reserved.
+          © {new Date().getFullYear()} Aura Systems. Todos os direitos reservados.
         </p>
         <div className="flex gap-6">
-          {["Privacy", "Terms"].map((link) => (
+          {["Privacidade", "Termos"].map((link) => (
             <a key={link} href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
               {link}
             </a>

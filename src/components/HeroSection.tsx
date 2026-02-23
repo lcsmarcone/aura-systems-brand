@@ -17,7 +17,7 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <span className="inline-block px-4 py-1.5 rounded-full border border-border text-xs text-muted-foreground font-medium tracking-wider uppercase mb-8">
-              AI-Powered Wellness Tech
+              Tecnologia de Bem-Estar com IA
             </span>
           </motion.div>
 
@@ -27,8 +27,8 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.35 }}
             className="text-5xl md:text-7xl font-heading font-bold leading-[1.05] tracking-tight mb-6"
           >
-            Digital systems for{" "}
-            <span className="text-gradient">wellness brands</span>
+            Sistemas digitais para{" "}
+            <span className="text-gradient">marcas de bem-estar</span>
           </motion.h1>
 
           <motion.p
@@ -37,8 +37,8 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
           >
-            We build intelligent websites, apps and booking systems that help spas and clinics
-            attract more clients and operate effortlessly.
+            Desenvolvemos sites inteligentes, aplicativos e sistemas de agendamento que ajudam spas e clínicas
+            a atrair mais clientes e operar sem esforço.
           </motion.p>
 
           <motion.div
@@ -51,13 +51,13 @@ const HeroSection = () => {
               href="#contact"
               className="px-8 py-3.5 rounded-lg bg-accent text-accent-foreground font-medium text-sm hover:opacity-90 transition-opacity glow-accent"
             >
-              Start Your Project
+              Iniciar Seu Projeto
             </a>
             <a
               href="#solutions"
               className="px-8 py-3.5 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
             >
-              See Our Work
+              Ver Nossos Trabalhos
             </a>
           </motion.div>
         </div>

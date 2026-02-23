@@ -1,0 +1,39 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer aura ring -->
+  <circle
+    cx="24"
+    cy="24"
+    r="22"
+    stroke="url(#auraGrad)"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-dasharray="4 6"
+    opacity="0.5"
+  />
+  <!-- Inner geometric A shape — no horizontal bar -->
+  <path
+    d="M24 8L14 38M24 8L34 38"
+    stroke="url(#auraGrad)"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <!-- Halo arc -->
+  <path
+    d="M16 16C16 16 20 10 24 10C28 10 32 16 32 16"
+    stroke="url(#auraGrad2)"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    fill="none"
+    opacity="0.7"
+  />
+  <defs>
+    <linearGradient id="auraGrad" x1="0" y1="0" x2="48" y2="48">
+      <stop stop-color="hsl(239 100% 74%)" />
+      <stop offset="1" stop-color="hsl(162 76% 57%)" />
+    </linearGradient>
+    <linearGradient id="auraGrad2" x1="16" y1="10" x2="32" y2="16">
+      <stop stop-color="hsl(162 76% 57%)" />
+      <stop offset="1" stop-color="hsl(239 100% 74%)" />
+    </linearGradient>
+  </defs>
+</svg>
