@@ -3,41 +3,43 @@ import { useEffect, useRef } from "react";
 import * as React from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from "@/components/ui/carousel";
 
+const teamBasePath = `${import.meta.env.BASE_URL}team/`;
+
 const teamMembers = [
   {
     name: "Lucas",
     role: "Desenvolvedor Senior Full Stack",
     skills: "Python | Django | Next.js | React | TypeScript | SQL | REST APIs | PostgreSQL | Web Maps",
     description: "Especialista em arquitetura backend, APIs escaláveis e desenvolvimento de aplicações modernas com foco em performance e experiência do usuário.",
-    image: "/team/lucas.jpg",
+    image: `${teamBasePath}lucas.jpg`,
   },
   {
     name: "Breno",
     role: "Desenvolvedor Senior Full Stack",
     skills: "Golang | Next.js | React | TypeScript | Mobile | Flutter | SQL Server | PostgreSQL",
     description: "Foco em sistemas robustos, aplicações mobile e soluções de alta performance com arquitetura moderna e escalável.",
-    image: "/team/breno.jpg",
+    image: `${teamBasePath}breno.jpg`,
   },
   {
     name: "Anderson",
     role: "Analista de Sistemas",
     skills: "React JS | Java | Spring Boot | MySQL | PostgreSQL | PHP | Laravel | WordPress",
     description: "Experiência em desenvolvimento de sistemas corporativos, integrações e soluções web sob medida para diferentes necessidades de negócio.",
-    image: "/team/anderson.jpg",
+    image: `${teamBasePath}anderson.jpg`,
   },
   {
     name: "Alexandre",
     role: "Especialista em Dados & Geoanalytics",
     skills: "SQL | Python | Geoanalytics | Databricks | Dataviz | Cloud | GIS | Airflow",
     description: "Atua na estruturação de dados, automações e inteligência analítica para apoiar decisões estratégicas e otimizar processos.",
-    image: "/team/alexandre.jpg",
+    image: `${teamBasePath}alexandre.jpg`,
   },
   {
     name: "Jahdy",
     role: "Especialista em Gestão de SPAs",
     skills: "Gestão de Pessoas | Logística | Organização Empresarial",
     description: "Experiência prática na gestão de spas, trazendo visão estratégica e operacional para garantir que as soluções desenvolvidas realmente atendam às necessidades do setor.",
-    image: "/team/jahdy.jpg",
+    image: `${teamBasePath}jahdy.jpg`,
   },
 ];
 
