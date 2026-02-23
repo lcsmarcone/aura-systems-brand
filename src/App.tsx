@@ -7,7 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
-const routerBaseName = import.meta.env.BASE_URL;
+const routerBaseName = import.meta.env.BASE_URL.startsWith("/") ? import.meta.env.BASE_URL : "/";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
